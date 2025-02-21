@@ -85,7 +85,7 @@ export default function Home() {
         <LogoXL />
         <div className="text-center mt-5 ">
           <p className="font-bold">
-            El Puente is an IT Consulting firm based in SF, CA.
+            Bonddin AI is an IT Consulting firm based in SF, CA.
           </p>
           <p className="font-bold">
             Are you a client looking businesses to solve your problem?
