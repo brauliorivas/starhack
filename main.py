@@ -14,16 +14,23 @@ app = FastAPI()
 
 cors_middleware(app)
 
+
 @app.get("/")
 def read():
     return {"status": "ok"}
+
 
 @app.post("/extract")
 def extract(file: UploadFile = File(...)):
     return parse_pdf(file)
 
+
 client_model = ClientModel()
 employee_model = EmployeeModel()
 
-app.include_router(create_client_router(client_model), prefix="/clients", tags=["client"])
-app.include_router(create_employee_router(employee_model), prefix="/employees", tags=["employee"])
+app.include_router(
+    create_client_router(client_model), prefix="/clients", tags=["client"]
+)
+app.include_router(
+    create_employee_router(employee_model), prefix="/employees", tags=["employee"]
+)

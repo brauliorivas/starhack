@@ -1,12 +1,15 @@
 from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
 from .client import Chat
+
+
 class Employee(BaseModel):
     name: str
     skillset: List[str]
     background: str
     cv: str
-    
+
+
 class EmployeeQdrant(BaseModel):
     id: str
     name: str
@@ -16,9 +19,20 @@ class EmployeeQdrant(BaseModel):
     cv_vector: List[float]
     score_cv: Optional[float] = None
     score_background: Optional[float] = None
-    
+
+
 class EmployeeRequest(BaseModel):
     chat: Chat
     background: List[float]
     skillset: List[str]
-    
+
+
+class BestEmployee(BaseModel):
+    name: str
+    score: Optional[float] = None
+    background: str
+
+
+class BestEmployeeResponse(BaseModel):
+    answer: str
+
