@@ -1,9 +1,12 @@
 # Star Hacks AI
 
+Aplicación desplegada (USAR ESTO)
 https://starhack.vercel.app/
 
+(PROTO)
 https://www.figma.com/design/UPnqGwD8C9VOExQY7sWzYT/Match-AI?node-id=0-1&t=KVmHBUcBpl9mfko1-1
 
+(ARCHIVOS DE PRUEBA)
 https://drive.google.com/file/d/1_3FerpMjGoPJa_J0kJ1q6fwfsweOOXtb/view?usp=sharing
 
 ## Setup desarollo local
