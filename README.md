@@ -1,4 +1,5 @@
 # Star Hacks AI
+DEMO: https://drive.google.com/file/d/1lJz38OC77AnDn4010FoMDehQmAET_EBx/view?usp=sharing
 
 - Aplicación desplegada (Prototipo funcional en línea)
 https://starhack.vercel.app/
