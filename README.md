@@ -1,12 +1,10 @@
 # Star Hacks AI
 
-Aplicación desplegada (USAR ESTO)
+- Aplicación desplegada (Prototipo funcional en línea)
 https://starhack.vercel.app/
-
-(PROTO)
+- Prototipo de Figma de una conversación (Figma)
 https://www.figma.com/design/UPnqGwD8C9VOExQY7sWzYT/Match-AI?node-id=0-1&t=KVmHBUcBpl9mfko1-1
-
-(ARCHIVOS DE PRUEBA)
+- Integración con Whatsapp (video)
 https://drive.google.com/file/d/1_3FerpMjGoPJa_J0kJ1q6fwfsweOOXtb/view?usp=sharing
 
 ## Setup desarollo local
