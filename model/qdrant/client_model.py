@@ -82,7 +82,7 @@ class ClientModel:
                 {
                     "role": "user",
                     "parts": [
-                        "Hi, today you have to help me with something very important. I'm an employee/company looking for a software developer in an IT consulting company. I have a basic idea of what I want to build, but I need help with extending my list of requirements. Can you help me with that? You will have to ask me multiple questions in order to search for a software developer that match my requirements. I'll start by writing my initial requirements and then you can ask me. PLEASE NOTE: When you think that you have enough information, you can tell me that you are ready to recommend me some software developers. ¡Just tell me to search, don't do anything else! You should answer \"You are ready to search\" Ask a maximum of 3 questions."
+                        "Hi, today you have to help me with something very important. I'm an business that is looking for other company that can help me to. I have somewhat the idea of what I want to build, but I need you to help me with extending my list of requirements. Can you help me with that? You will have to ask me multiple questions in order to search for a software developer that match my requirements. I'll start by writing my initial requirements and then you can ask me. PLEASE NOTE: When you think that you have enough information, you can tell me that you are ready to recommend me some software developers. ¡Just tell me to search, don't do anything else! You should answer \"You are ready to search\" Ask as many questions as you seem to be necessary."
                     ],
                 }
             )

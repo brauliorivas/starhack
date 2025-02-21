@@ -43,11 +43,11 @@ export default function Home() {
           <div className="">
             <p className="text-white text-[120px] font-medium">Welcome To</p>
             <p className="text-white text-[160px]  font-extrabold hidden">
-              <span className="text-black">EL Puente</span>
+              <span className="text-black">Bonddin AI</span>
             </p>
             <div className="flex items-center justify-center">
               <ConsoleText
-                words={["EL PUENTE", "EL PUENTE", "EL PUENTE"]}
+                words={["BONDDIN AI", "BONDDIN AI", "BONDDIN AI"]}
                 fonts={[
                   "Baskerville",
                   "Verdana",
@@ -87,10 +87,15 @@ export default function Home() {
           <p className="font-bold">
             El Puente is an IT Consulting firm based in SF, CA.
           </p>
-          <p className="font-bold">Are you a company looking for developers?</p>
-          <p className="font-bold">Register as Enterprise</p>
-          <p className="font-bold">Are you an old/new employee at El Puente?</p>
-          <p className="font-bold">Create a profile in our newest portal</p>
+          <p className="font-bold">
+            Are you a client looking businesses to solve your problem?
+          </p>
+          <p className="font-bold">Register as a Client</p>
+          <p className="font-bold">
+            Are you an business that wants to offer your services to other
+            people?
+          </p>
+          <p className="font-bold">Create a profile as provider</p>
         </div>
         <div className="text-center">
           <p className="text-[rgb(252,118,0)] font-bold text-[40px] uppercase mt-4">
@@ -98,12 +103,12 @@ export default function Home() {
           </p>
         </div>
         <div className="flex">
-          <Register type="Developer" link="/employee-register" />
-          <Register type="Enterprise" link="/company-register" />
+          <Register type="Provider" link="/employee-register" />
+          <Register type="Client" link="/company-register" />
         </div>
         <div className="text-center">
           <p className="font-bold">
-            Did your company already registered?{" "}
+            Are you a client that already has an account?{" "}
             <Link href="/company-login">
               <span className="text-[rgb(252,118,65)] font-bold">Login</span>
             </Link>
