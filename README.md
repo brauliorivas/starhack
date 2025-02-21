@@ -1,4 +1,9 @@
-# gdg-ai
+# Star Hacks AI
+
+https://starhack.vercel.app/
+
+https://www.figma.com/design/UPnqGwD8C9VOExQY7sWzYT/Match-AI?node-id=0-1&t=KVmHBUcBpl9mfko1-1
+
 
 ## Setup desarollo local
 El repositorio contiene el backend y frontend de la aplicación. El frontend se encuentra dentro la carpeta web. 
