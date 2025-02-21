@@ -189,8 +189,10 @@ class EmployeeModel:
             messages = [
                 {
                     "role": "user",
-                    "parts": "Hey, I'm going to pass the profile of a business. This business is about {}. The score that this business got is {}. Your task is to why this business is the best for my needs because of their background and the score that it got is the one I told you.".format(
-                        best_employee.background, best_employee.score
+                    "parts": "Hey, I'm going to pass the profile of a business. This business is about {}. The name is {}, The score that this business got is {}. Your task is to why this business is the best for my needs because of their background and the score that it got is the one I told you.".format(
+                        best_employee.background,
+                        best_employee.name,
+                        best_employee.score,
                     ),
                 }
             ]
