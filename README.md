@@ -1,6 +1,13 @@
 # Star Hacks AI
 DEMO: https://drive.google.com/file/d/1lJz38OC77AnDn4010FoMDehQmAET_EBx/view?usp=sharing
 
+# CAPTURAS
+![image](https://github.com/user-attachments/assets/6508f7ca-0e3b-472b-9b89-12b37b4eb541)
+![image](https://github.com/user-attachments/assets/90ada55b-b657-4c25-ae5b-770ee346506b)
+![image](https://github.com/user-attachments/assets/8b44f4cd-5d4f-4c8c-b65e-3744d6f317c2)
+![image](https://github.com/user-attachments/assets/7eb4fdfd-44b7-4168-8b74-be32c9c20372)
+
+
 - Aplicación desplegada (Prototipo funcional en línea)
 https://starhack.vercel.app/
 - Prototipo de Figma de una conversación (Figma)
